@@ -1,0 +1,2662 @@
+﻿<!DOCTYPE html>
+
+<html lang="zxx">
+
+
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="description" content="">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Credit Bulls</title>
+
+
+
+    <!-- Google Font -->
+
+    <link href="css2.css?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+
+
+     <!-- Css Styles -->
+
+     <link rel="stylesheet" href="web_assets/css/bootstrap.min.css" type="text/css">
+
+     <link rel="stylesheet" href="web_assets/css/font-awesome.min.css" type="text/css">
+ 
+     <link rel="stylesheet" href="web_assets/css/elegant-icons.css" type="text/css">
+ 
+     <link rel="stylesheet" href="web_assets/css/nice-select.css" type="text/css">
+ 
+     <link rel="stylesheet" href="web_assets/css/magnific-popup.css" type="text/css">
+ 
+     <link rel="stylesheet" href="web_assets/css/jquery-ui.min.css" type="text/css">
+ 
+     <link rel="stylesheet" href="web_assets/css/owl.carousel.min.css" type="text/css">
+ 
+     <link rel="stylesheet" href="web_assets/css/slicknav.min.css" type="text/css">
+ 
+     <link rel="stylesheet" href="web_assets/css/style.css" type="text/css">
+ 
+     <link href="ajax/libs/animate.css/4.0.0/animate.min.css" rel="stylesheet">
+ 
+     <script src="sweetalert@2.1.2/dist/sweetalert.min.js"></script>
+     <script src="recaptcha/api.js" async="" defer=""></script>
+
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <!-- <div id="preloder">
+        <div class="loader"></div>
+    </div>
+ -->
+    <!-- Offcanvas Menu Begin -->
+    <div class="offcanvas-menu-overlay"></div>
+    <div class="offcanvas-menu-wrapper">
+        <!-- <div class="offcanvas__search">
+            <i class="fa fa-search search-switch"></i>
+        </div> -->
+        <div class="offcanvas__logo text-center">
+            <a href="index.html"><img src="web_assets/img/logo.png" alt="" width="100px"></a>
+        </div>
+        <nav class="offcanvas__menu mobile-menu">
+            <ul>
+                                <li class="active"><a href="index.html">Home</a></li>
+                                 <li><a href="#">Loans</a>
+                                    <ul class="dropdown">
+                                        <li><a href="home-loan.html">Home loan</a></li>
+                                        <li><a href="car-loan.html">Car Loan</a></li>
+                                        <li><a href="personal-loan.html">Personal Loan</a></li>
+                                        <li><a href="loan-against-property.html">Loan Against Properties</a></li>
+                                        <li><a href="business-loan.html">Business Loan</a></li>
+                                    </ul>
+                                </li>
+                                 <li><a href="emi-calculator.html">EMI Calculator</a>
+                                </li>
+                                <li><a href="all-team.html">Our Staff</a></li>
+                                <li><a href="about-us.html">About</a></li>
+                               
+                                <li><a href="services.html">Services</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                               
+                                
+                                <li><a href="contact-us.html">Contact</a></li>
+                                <li class="mr-0"> 
+                                                                       <a href="javascript:void(0);" data-toggle="modal" data-target="#login" class="login-btn">LOGIN</a>
+                                                                   </li>
+                                <li> <a href="apply-for-loan.html" class="login-btn" style="background-color: #2bbbad !important;margin-top: 10px;">Apply Now</a></li>
+                            </ul>
+        </nav>
+        <div id="mobile-menu-wrap"></div>
+        <ul class="offcanvas__widget">
+            <li><i class="fa fa-map-marker"></i>B - 309, Khoobram Park,
+                            2nd Floor, Premnagar - 1,
+                            Nangloi, Delhi - 110087
+                            </li>
+            <li><i class="fa fa-phone"></i> (+91) 9871891633, 7838680954</li>
+            <li><i class="fa fa-envelope"></i> info@creditbull.co.in</li>
+        </ul>
+    </div>
+    <!-- Offcanvas Menu End -->
+
+    <!-- Header Section Begin -->
+    <header class="header">
+       <!--  <div class="header__top">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <ul class="header__top__widget">
+                            <li><i class="fa fa-map-marker"></i> B15, first to third floor kirhna nagar Delhi</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-9">
+                         <ul class="header__top__widget float-right">
+                            <li><i class="fa fa-phone"></i> 1234567896</li>
+                            <li><i class="fa fa-envelope"></i> info@fastcredit.co.in</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="header__logo">
+                        <a href="index.html"><img src="web_assets/img/logo.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-lg-10">
+                    <div class="header__nav">
+                        <nav class="header__menu">
+                            <ul>
+                                <li class="active"><a href="index.html">Home</a></li>
+                                 <li><a href="#">Loans</a>
+                                    <ul class="dropdown">
+                                        <li><a href="home-loan.html">Home loan</a></li>
+                                        <li><a href="car-loan.html">Car Loan</a></li>
+                                        <li><a href="personal-loan.html">Personal Loan</a></li>
+                                        <li><a href="loan-against-property.html">Loan Against Properties</a></li>
+                                        <li><a href="business-loan.html">Business Loan</a></li>
+                                    </ul>
+                                </li>
+                                 <li><a href="emi-calculator.html">EMI Calculator</a>
+                                </li>
+                                <li><a href="all-team.html">Our Staff</a></li>
+                                <li><a href="about-us.html">About</a></li>
+                                <li><a href="services.html">Services</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                               
+                                
+                                <li><a href="contact-us.html">Contact</a></li>
+                                <li class="mr-0"> 
+                                                                       <a href="javascript:void(0);" data-toggle="modal" data-target="#login" class="login-btn">LOGIN</a>
+                                                                   </li>
+                                <li> <a href="apply-for-loan.html" class="login-btn" style="background-color: #2bbbad !important;">Apply Now</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="canvas__open">
+                <span class="fa fa-bars"></span>
+            </div>
+        </div>
+    </header>
+    <!-- Header Section End -->
+<style type="text/css">
+   hr{
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+   }
+</style>
+<!-- Main container -->
+<main class="bg-form pt-3 pb-3">
+   <section class=" mt-5 from_news">
+      <div class="container">
+         <div class="row">
+            <div class="col-xs-12 col-lg-12">
+               <form>
+                  <input type="hidden" id="loan_for" value="against_properties">
+                  <style type="text/css">
+   .location_user .nice-select .list{
+     height: 235px;
+    overflow: auto;
+   }
+</style>
+<div class="row">
+                     <div class="form-group col-xs-12 col-sm-6">
+                        <label>Your desired loan amount ?</label>
+                        <input type="text" class="form-control" placeholder="Ammount" id="u_amount">
+                     </div>
+                  </div>
+                  <hr>
+                  <div class="row">
+                     <div class="form-group col-xs-12 col-sm-12">
+                        <label>How are you currently employed ?</label>
+                        <ul class="nav nav-pills mb-3 news_tabs" id="pills-tab" role="tablist">
+                           <li class="nav-item">
+                              <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Salaried</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Self Employed</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Professional</a>
+                           </li>
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                           <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                              <div class="col-xs-6 col-md-12">
+                                 <label>Employment Details</label>
+                                 <div class="row">
+                                    <div class="form-group col-xs-12 col-sm-4">
+                                       <input type="text" class="form-control" placeholder="Company Name" id="u_compny_name">
+                                    </div>
+                                    <div class="form-group col-xs-12 col-sm-4">
+                                       <input type="text" class="form-control" placeholder="Designation" id="u_designation">
+                                    </div>
+                                    <div class="form-group col-xs-12 col-sm-4">
+                                       <input type="text" class="form-control" placeholder="Monthly Income" id="u_monthly_income">
+                                    </div>
+                                    <div class="form-group col-xs-12 col-sm-4">
+                                       <input type="date" class="form-control" placeholder="Employment From" id="u_emplyment_form">
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                              <div class="col-xs-12 col-md-12">
+                                 <label>Business Details</label>
+                                 <div class="row">
+                                    <div class="form-group col-xs-12 col-sm-4">
+                                       <input type="text" class="form-control" placeholder="Company Name" id="b_company_name">
+                                    </div>
+                                    <div class="form-group col-xs-12 col-sm-4">
+                                       <input type="text" class="form-control" placeholder="Turnover" id="u_ternover">
+                                    </div>
+                                    <div class="form-group col-xs-12 col-sm-4">
+                                       <input type="text" class="form-control" placeholder="Profit after tax" id="u_properties">
+                                    </div>
+                                    <div class="form-group col-xs-12 col-sm-4">
+                                       <input type="text" class="form-control" placeholder="Business Type" id="u_bussineess_type">
+                                    </div>
+                                    <div class="form-group col-xs-12 col-sm-4">
+                                       <input type="text" class="form-control" placeholder="Designation" id="b_desgignation">
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                              <div class="col-xs-12 col-md-12">
+                                 <label>Profession Details</label>
+                                 <div class="row">
+                                    <div class="form-group col-xs-12 col-sm-6 professionType">
+                                       <select class="form-control" name="professionType" id="professionType">
+                                          <option value="">Profession Type</option>
+                                          <option value="Doctor">Doctor</option>
+                                          <option value="Architect">Architect</option>
+                                          <option value="chartered accountant (CA)">chartered accountant (CA)</option>
+                                       </select>
+                                    </div>
+                                    <div class="form-group col-xs-12 col-sm-6">
+                                       <div class="radio">
+                                          <label>
+                                          <input type="radio" name="exampleRadios" id="exampleRadios1" value="0" checked="">
+                                          Salaried
+                                          </label>
+                                          <div class="radio">
+                                             <label>
+                                             <input type="radio" name="exampleRadios" id="exampleRadios2" value="1">
+                                             Self Employed
+                                             </label>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="form-group col-xs-12 col-sm-4">
+                                       <input type="text" class="form-control" placeholder="Qualificaiton" id="u_qalification">
+                                    </div>
+                                    <div class="form-group col-xs-12 col-sm-4">
+                                       <input type="text" class="form-control" placeholder="Company Name" id="s_company_name">
+                                    </div>
+                                    <div class="form-group col-xs-12 col-sm-4">
+                                       <input type="text" class="form-control" placeholder="Designation" id="s_degisgantion">
+                                    </div>
+                                    <div class="form-group col-xs-12 col-sm-4">
+                                       <input type="text" class="form-control" placeholder="Monthly Income" id="s_monthly_income">
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <hr>
+                  <label>Previous Loan Details</label>
+                  <div class="row">
+                     <div class="form-group col-xs-12 col-sm-4">
+                        <input type="text" class="form-control" placeholder="Running EMI" id="running_emi">
+                     </div>
+                     <div class="form-group col-xs-12 col-sm-4 loan_type">
+                        <select class="form-control" id="loan_type">
+                           <option value="">Loan Type</option>
+                           <option value="Home Loan">Home Loan</option>
+                           <option value="Car Loan">Car Loan</option>
+                           <option value="Personal Loan">Personal Loan</option>
+                           <option value="Business Loan">Business Loan</option>
+                           <option value="Loan Against Property">Loan Against Property</option>
+                        </select>
+                     </div>
+                     <div class="form-group col-xs-12 col-sm-4 bank_name">
+                        <select class="form-control" name="" id="bank_name">
+                           <option value="">Select Bank Name</option>
+                           <option value="Axis Bank">Axis Bank</option>
+                           <option value="ICICI Bank">ICICI Bank</option>
+                           <option value="IndusInd Bank">IndusInd Bank</option>
+                           <option value="Kotak Bank">Kotak Bank</option>
+                           <option value="Punjab National Bank">Punjab National Bank</option>
+                           <option value="State Bank of India">State Bank of India</option>
+                           <option value="Union Bank of India">Union Bank of India</option>
+                           <option value="Other Bank">Other Bank</option>
+                        </select>
+                     </div>
+                  </div>
+                  <hr>
+                  <label>location</label>
+                  <div class="row">
+                     <div class="form-group col-xs-12 col-sm-4 location_user">
+                        <select class="form-control" id="location_user">
+                           <option value="">Select Location</option>
+                           <option value="Delhi">Delhi</option>
+<option value="Agra">Agra</option>
+<option value="Aligarh">Aligarh</option>
+<option value="Anpara">Anpara</option>
+<option value="Antu">Antu</option>
+<option value="Anupshahr">Anupshahr</option>
+<option value="Aonla">Aonla</option>
+<option value="Armapur Estate">Armapur Estate</option>
+<option value="Ashokpuram">Ashokpuram</option>
+<option value="Ashrafpur Kichhauchha">Ashrafpur Kichhauchha</option>
+<option value="Atarra">Atarra</option>
+<option value="Atasu">Atasu</option>
+<option value="Atrauli">Atrauli</option>
+<option value="Atraulia">Atraulia</option>
+<option value="Auraiya">Auraiya</option>
+<option value="Aurangabad">Aurangabad</option>
+<option value="Aurangabad Bangar">Aurangabad Bangar</option>
+<option value="Auras">Auras</option>
+<option value="Awagarh">Awagarh</option>
+<option value="Ayodhya">Ayodhya</option>
+<option value="Azamgarh">Azamgarh</option>
+<option value="Azizpur">Azizpur</option>
+<option value="Azmatgarh">Azmatgarh</option>
+<option value="Babarpur Ajitmal">Babarpur Ajitmal</option>
+<option value="Baberu">Baberu</option>
+<option value="Babina">Babina</option>
+<option value="Babrala">Babrala</option>
+<option value="Babugarh">Babugarh</option>
+<option value="Bachhiowan">Bachhiowan</option>
+<option value="Bachhraon">Bachhraon</option>
+<option value="Bad">Bad</option>
+<option value="Badaun">Badaun</option>
+<option value="Baghpat">Baghpat</option>
+<option value="Bah">Bah</option>
+<option value="Bahadurganj">Bahadurganj</option>
+<option value="Baheri">Baheri</option>
+<option value="Bahjoi">Bahjoi</option>
+<option value="Bahraich">Bahraich</option>
+<option value="Bahsuma">Bahsuma</option>
+<option value="Bahua">Bahua</option>
+<option value="Bajna">Bajna</option>
+<option value="Bakewar">Bakewar</option>
+<option value="Bakiabad">Bakiabad</option>
+<option value="Baldeo">Baldeo</option>
+<option value="Ballia">Ballia</option>
+<option value="Balrampur">Balrampur</option>
+<option value="Banat">Banat</option>
+<option value="Banda">Banda</option>
+<option value="Bangarmau">Bangarmau</option>
+<option value="Banki">Banki</option>
+<option value="Bansdih">Bansdih</option>
+<option value="Bansgaon">Bansgaon</option>
+<option value="Bansi">Bansi</option>
+<option value="Barabanki">Barabanki</option>
+<option value="Baragaon">Baragaon</option>
+<option value="Baraut">Baraut</option>
+<option value="Bareilly">Bareilly</option>
+<option value="Bareilly Cantonment">Bareilly Cantonment</option>
+<option value="Barhalganj">Barhalganj</option>
+<option value="Barhani">Barhani</option>
+<option value="Barhapur">Barhapur</option>
+<option value="Barkhera">Barkhera</option>
+<option value="Barsana">Barsana</option>
+<option value="Barva Sagar">Barva Sagar</option>
+<option value="Barwar">Barwar</option>
+<option value="Basti">Basti</option>
+<option value="Begumabad Budhana">Begumabad Budhana</option>
+<option value="Behat">Behat</option>
+<option value="Behta Hajipur">Behta Hajipur</option>
+<option value="Bela">Bela</option>
+<option value="Belthara">Belthara</option>
+<option value="Beniganj">Beniganj</option>
+<option value="Beswan">Beswan</option>
+<option value="Bewar">Bewar</option>
+<option value="Bhadarsa">Bhadarsa</option>
+<option value="Bhadohi">Bhadohi</option>
+<option value="Bhagwantnagar">Bhagwantnagar</option>
+<option value="Bharatganj">Bharatganj</option>
+<option value="Bhargain">Bhargain</option>
+<option value="Bharthana">Bharthana</option>
+<option value="Bharuhana">Bharuhana</option>
+<option value="Bharwari">Bharwari</option>
+<option value="Bhatni Bazar">Bhatni Bazar</option>
+<option value="Bhatpar Rani">Bhatpar Rani</option>
+<option value="Bhawan Bahadurnagar">Bhawan Bahadurnagar</option>
+<option value="Bhinga">Bhinga</option>
+<option value="Bhojpur Dharampur">Bhojpur Dharampur</option>
+<option value="Bhokarhedi">Bhokarhedi</option>
+<option value="Bhongaon">Bhongaon</option>
+<option value="Bhulepur">Bhulepur</option>
+<option value="Bidhuna">Bidhuna</option>
+<option value="Bighapur">Bighapur</option>
+<option value="Bijnor">Bijnor</option>
+<option value="Bijpur">Bijpur</option>
+<option value="Bikapur">Bikapur</option>
+<option value="Bilari">Bilari</option>
+<option value="Bilaspur">Bilaspur</option>
+<option value="Bilgram">Bilgram</option>
+<option value="Bilhaur">Bilhaur</option>
+<option value="Bilram">Bilram</option>
+<option value="Bilrayaganj">Bilrayaganj</option>
+<option value="Bilsanda">Bilsanda</option>
+<option value="Bilsi">Bilsi</option>
+<option value="Bindki">Bindki</option>
+<option value="Bisalpur">Bisalpur</option>
+<option value="Bisanda Buzurg">Bisanda Buzurg</option>
+<option value="Bisauli">Bisauli</option>
+<option value="Bisharatganj">Bisharatganj</option>
+<option value="Bisokhar">Bisokhar</option>
+<option value="Biswan">Biswan</option>
+<option value="Bithur">Bithur</option>
+<option value="Budaun">Budaun</option>
+<option value="Bugrasi">Bugrasi</option>
+<option value="Bulandshahar">Bulandshahar</option>
+<option value="Burhana">Burhana</option>
+<option value="Chail">Chail</option>
+<option value="Chak Imam Ali">Chak Imam Ali</option>
+<option value="Chakeri">Chakeri</option>
+<option value="Chakia">Chakia</option>
+<option value="Chandauli">Chandauli</option>
+<option value="Chandausi">Chandausi</option>
+<option value="Chandpur">Chandpur</option>
+<option value="Charkhari">Charkhari</option>
+<option value="Charthawal">Charthawal</option>
+<option value="Chaumuhan">Chaumuhan</option>
+<option value="Chhaprauli">Chhaprauli</option>
+<option value="Chhara Rafatpur">Chhara Rafatpur</option>
+<option value="Chharprauli">Chharprauli</option>
+<option value="Chhata">Chhata</option>
+<option value="Chhatari">Chhatari</option>
+<option value="Chhibramau">Chhibramau</option>
+<option value="Chhutmalpur">Chhutmalpur</option>
+<option value="Chilkana Sultanpur">Chilkana Sultanpur</option>
+<option value="Chirgaon">Chirgaon</option>
+<option value="Chit Baragaon">Chit Baragaon</option>
+<option value="Chitrakut Dham">Chitrakut Dham</option>
+<option value="Chopan">Chopan</option>
+<option value="Choubepur Kalan">Choubepur Kalan</option>
+<option value="Chunar">Chunar</option>
+<option value="Churk Ghurma">Churk Ghurma</option>
+<option value="Colonelganj">Colonelganj</option>
+<option value="Dadri">Dadri</option>
+<option value="Dalmau">Dalmau</option>
+<option value="Dankaur">Dankaur</option>
+<option value="Dariyabad">Dariyabad</option>
+<option value="Dasna">Dasna</option>
+<option value="Dataganj">Dataganj</option>
+<option value="Daurala">Daurala</option>
+<option value="Dayal Bagh">Dayal Bagh</option>
+<option value="Deoband">Deoband</option>
+<option value="Deoranian">Deoranian</option>
+<option value="Deoria">Deoria</option>
+<option value="Dewa">Dewa</option>
+<option value="Dhampur">Dhampur</option>
+<option value="Dhanauha">Dhanauha</option>
+<option value="Dhanauli">Dhanauli</option>
+<option value="Dhanaura">Dhanaura</option>
+<option value="Dharoti Khurd">Dharoti Khurd</option>
+<option value="Dhauratanda">Dhauratanda</option>
+<option value="Dhaurhra">Dhaurhra</option>
+<option value="Dibai">Dibai</option>
+<option value="Dibiyapur">Dibiyapur</option>
+<option value="Dildarnagar Fatehpur">Dildarnagar Fatehpur</option>
+<option value="Do Ghat">Do Ghat</option>
+<option value="Dohrighat">Dohrighat</option>
+<option value="Dostpur">Dostpur</option>
+<option value="Dudhinagar">Dudhinagar</option>
+<option value="Dulhipur">Dulhipur</option>
+<option value="Dundwaraganj">Dundwaraganj</option>
+<option value="Ekdil">Ekdil</option>
+<option value="Erich">Erich</option>
+<option value="Etah">Etah</option>
+<option value="Etawah">Etawah</option>
+<option value="Faizabad">Faizabad</option>
+<option value="Faizabad Cantonment">Faizabad Cantonment</option>
+<option value="Faizganj">Faizganj</option>
+<option value="Farah">Farah</option>
+<option value="Faridnagar">Faridnagar</option>
+<option value="Faridpur">Faridpur</option>
+<option value="Faridpur Cantonment">Faridpur Cantonment</option>
+<option value="Fariha">Fariha</option>
+<option value="Farrukhabad">Farrukhabad</option>
+<option value="Fatehabad">Fatehabad</option>
+<option value="Fatehganj Pashchimi">Fatehganj Pashchimi</option>
+<option value="Fatehganj Purvi">Fatehganj Purvi</option>
+<option value="Fatehgarh">Fatehgarh</option>
+<option value="Fatehpur">Fatehpur</option>
+<option value="Fatehpur Chaurasi">Fatehpur Chaurasi</option>
+<option value="Fatehpur Sikri">Fatehpur Sikri</option>
+<option value="Firozabad">Firozabad</option>
+<option value="Gajraula">Gajraula</option>
+<option value="Ganga Ghat">Ganga Ghat</option>
+<option value="Gangapur">Gangapur</option>
+<option value="Gangoh">Gangoh</option>
+<option value="Ganj Muradabad">Ganj Muradabad</option>
+<option value="Garautha">Garautha</option>
+<option value="Garhi Pukhta">Garhi Pukhta</option>
+<option value="Garhmukteshwar">Garhmukteshwar</option>
+<option value="Gaura Barahaj">Gaura Barahaj</option>
+<option value="Gauri Bazar">Gauri Bazar</option>
+<option value="Gausganj">Gausganj</option>
+<option value="Gawan">Gawan</option>
+<option value="Ghatampur">Ghatampur</option>
+<option value="Ghaziabad">Ghaziabad</option>
+<option value="Ghazipur">Ghazipur</option>
+<option value="Ghiror">Ghiror</option>
+<option value="Ghorawal">Ghorawal</option>
+<option value="Ghosi">Ghosi</option>
+<option value="Ghosia Bazar">Ghosia Bazar</option>
+<option value="Ghughuli">Ghughuli</option>
+<option value="Gohand">Gohand</option>
+<option value="Gokul">Gokul</option>
+<option value="Gola Bazar">Gola Bazar</option>
+<option value="Gola Gokarannath">Gola Gokarannath</option>
+<option value="Gonda">Gonda</option>
+<option value="Gopamau">Gopamau</option>
+<option value="Gopiganj">Gopiganj</option>
+<option value="Gorakhpur">Gorakhpur</option>
+<option value="Gosainganj">Gosainganj</option>
+<option value="Govardhan">Govardhan</option>
+<option value="Greater Noida">Greater Noida</option>
+<option value="Gulaothi">Gulaothi</option>
+<option value="Gulariya">Gulariya</option>
+<option value="Gulariya Bhindara">Gulariya Bhindara</option>
+<option value="Gunnaur">Gunnaur</option>
+<option value="Gursahaiganj">Gursahaiganj</option>
+<option value="Gursarai">Gursarai</option>
+<option value="Gyanpur">Gyanpur</option>
+<option value="Hafizpur">Hafizpur</option>
+<option value="Haidergarh">Haidergarh</option>
+<option value="Haldaur">Haldaur</option>
+<option value="Hamirpur">Hamirpur</option>
+<option value="Handia">Handia</option>
+<option value="Hapur">Hapur</option>
+<option value="Hardoi">Hardoi</option>
+<option value="Harduaganj">Harduaganj</option>
+<option value="Hargaon">Hargaon</option>
+<option value="Hariharpur">Hariharpur</option>
+<option value="Harraiya">Harraiya</option>
+<option value="Hasanpur">Hasanpur</option>
+<option value="Hasayan">Hasayan</option>
+<option value="Hastinapur">Hastinapur</option>
+<option value="Hata">Hata</option>
+<option value="Hathras">Hathras</option>
+<option value="Hyderabad">Hyderabad</option>
+<option value="Ibrahimpur">Ibrahimpur</option>
+<option value="Iglas">Iglas</option>
+<option value="Ikauna">Ikauna</option>
+<option value="Iltifatganj Bazar">Iltifatganj Bazar</option>
+<option value="Indian Telephone Industry Mank">Indian Telephone Industry Mank</option>
+<option value="Islamnagar">Islamnagar</option>
+<option value="Itaunja">Itaunja</option>
+<option value="Itimadpur">Itimadpur</option>
+<option value="Jagner">Jagner</option>
+<option value="Jahanabad">Jahanabad</option>
+<option value="Jahangirabad">Jahangirabad</option>
+<option value="Jahangirpur">Jahangirpur</option>
+<option value="Jais">Jais</option>
+<option value="Jaithara">Jaithara</option>
+<option value="Jalalabad">Jalalabad</option>
+<option value="Jalali">Jalali</option>
+<option value="Jalalpur">Jalalpur</option>
+<option value="Jalaun">Jalaun</option>
+<option value="Jalesar">Jalesar</option>
+<option value="Jamshila">Jamshila</option>
+<option value="Jangipur">Jangipur</option>
+<option value="Jansath">Jansath</option>
+<option value="Jarwal">Jarwal</option>
+<option value="Jasrana">Jasrana</option>
+<option value="Jaswantnagar">Jaswantnagar</option>
+<option value="Jatari">Jatari</option>
+<option value="Jaunpur">Jaunpur</option>
+<option value="Jewar">Jewar</option>
+<option value="Jhalu">Jhalu</option>
+<option value="Jhansi">Jhansi</option>
+<option value="Jhansi Cantonment">Jhansi Cantonment</option>
+<option value="Jhansi Railway Settlement">Jhansi Railway Settlement</option>
+<option value="Jhinjhak">Jhinjhak</option>
+<option value="Jhinjhana">Jhinjhana</option>
+<option value="Jhusi">Jhusi</option>
+<option value="Jhusi Kohna">Jhusi Kohna</option>
+<option value="Jiyanpur">Jiyanpur</option>
+<option value="Joya">Joya</option>
+<option value="Jyoti Khuria">Jyoti Khuria</option>
+<option value="Jyotiba Phule Nagar">Jyotiba Phule Nagar</option>
+<option value="Kabrai">Kabrai</option>
+<option value="Kachhauna Patseni">Kachhauna Patseni</option>
+<option value="Kachhla">Kachhla</option>
+<option value="Kachhwa">Kachhwa</option>
+<option value="Kadaura">Kadaura</option>
+<option value="Kadipur">Kadipur</option>
+<option value="Kailashpur">Kailashpur</option>
+<option value="Kaimganj">Kaimganj</option>
+<option value="Kairana">Kairana</option>
+<option value="Kakgaina">Kakgaina</option>
+<option value="Kakod">Kakod</option>
+<option value="Kakori">Kakori</option>
+<option value="Kakrala">Kakrala</option>
+<option value="Kalinagar">Kalinagar</option>
+<option value="Kalpi">Kalpi</option>
+<option value="Kamalganj">Kamalganj</option>
+<option value="Kampil">Kampil</option>
+<option value="Kandhla">Kandhla</option>
+<option value="Kandwa">Kandwa</option>
+<option value="Kannauj">Kannauj</option>
+<option value="Kanpur">Kanpur</option>
+<option value="Kant">Kant</option>
+<option value="Kanth">Kanth</option>
+<option value="Kaptanganj">Kaptanganj</option>
+<option value="Karaon">Karaon</option>
+<option value="Karari">Karari</option>
+<option value="Karhal">Karhal</option>
+<option value="Karnawal">Karnawal</option>
+<option value="Kasganj">Kasganj</option>
+<option value="Katariya">Katariya</option>
+<option value="Katghar Lalganj">Katghar Lalganj</option>
+<option value="Kathera">Kathera</option>
+<option value="Katra">Katra</option>
+<option value="Katra Medniganj">Katra Medniganj</option>
+<option value="Kauriaganj">Kauriaganj</option>
+<option value="Kemri">Kemri</option>
+<option value="Kerakat">Kerakat</option>
+<option value="Khadda">Khadda</option>
+<option value="Khaga">Khaga</option>
+<option value="Khailar">Khailar</option>
+<option value="Khair">Khair</option>
+<option value="Khairabad">Khairabad</option>
+<option value="Khairagarh">Khairagarh</option>
+<option value="Khalilabad">Khalilabad</option>
+<option value="Khamaria">Khamaria</option>
+<option value="Khanpur">Khanpur</option>
+<option value="Kharela">Kharela</option>
+<option value="Khargupur">Khargupur</option>
+<option value="Khariya">Khariya</option>
+<option value="Kharkhoda">Kharkhoda</option>
+<option value="Khatauli">Khatauli</option>
+<option value="Khatauli Rural">Khatauli Rural</option>
+<option value="Khekra">Khekra</option>
+<option value="Kheri">Kheri</option>
+<option value="Kheta Sarai">Kheta Sarai</option>
+<option value="Khudaganj">Khudaganj</option>
+<option value="Khurja">Khurja</option>
+<option value="Khutar">Khutar</option>
+<option value="Kiraoli">Kiraoli</option>
+<option value="Kiratpur">Kiratpur</option>
+<option value="Kishanpur">Kishanpur</option>
+<option value="Kishni">Kishni</option>
+<option value="Kithaur">Kithaur</option>
+<option value="Koiripur">Koiripur</option>
+<option value="Konch">Konch</option>
+<option value="Kopaganj">Kopaganj</option>
+<option value="Kora Jahanabad">Kora Jahanabad</option>
+<option value="Korwa">Korwa</option>
+<option value="Kosi Kalan">Kosi Kalan</option>
+<option value="Kota">Kota</option>
+<option value="Kotra">Kotra</option>
+<option value="Kotwa">Kotwa</option>
+<option value="Kulpahar">Kulpahar</option>
+<option value="Kunda">Kunda</option>
+<option value="Kundarki">Kundarki</option>
+<option value="Kunwargaon">Kunwargaon</option>
+<option value="Kurara">Kurara</option>
+<option value="Kurawali">Kurawali</option>
+<option value="Kursath">Kursath</option>
+<option value="Kurthi Jafarpur">Kurthi Jafarpur</option>
+<option value="Kushinagar">Kushinagar</option>
+<option value="Kusmara">Kusmara</option>
+<option value="Laharpur">Laharpur</option>
+<option value="Lakhimpur">Lakhimpur</option>
+<option value="Lakhna">Lakhna</option>
+<option value="Lalganj">Lalganj</option>
+<option value="Lalitpur">Lalitpur</option>
+<option value="Lar">Lar</option>
+<option value="Lawar">Lawar</option>
+<option value="Ledwa Mahuwa">Ledwa Mahuwa</option>
+<option value="Lohta">Lohta</option>
+<option value="Loni">Loni</option>
+<option value="Lucknow">Lucknow</option>
+<option value="Machhlishahr">Machhlishahr</option>
+<option value="Madhoganj">Madhoganj</option>
+<option value="Madhogarh">Madhogarh</option>
+<option value="Maghar">Maghar</option>
+<option value="Mahaban">Mahaban</option>
+<option value="Maharajganj">Maharajganj</option>
+<option value="Mahmudabad">Mahmudabad</option>
+<option value="Mahoba">Mahoba</option>
+<option value="Maholi">Maholi</option>
+<option value="Mahona">Mahona</option>
+<option value="Mahroni">Mahroni</option>
+<option value="Mailani">Mailani</option>
+<option value="Mainpuri">Mainpuri</option>
+<option value="Majhara Pipar Ehatmali">Majhara Pipar Ehatmali</option>
+<option value="Majhauli Raj">Majhauli Raj</option>
+<option value="Malihabad">Malihabad</option>
+<option value="Mallanwam">Mallanwam</option>
+<option value="Mandawar">Mandawar</option>
+<option value="Manikpur">Manikpur</option>
+<option value="Maniyar">Maniyar</option>
+<option value="Manjhanpur">Manjhanpur</option>
+<option value="Mankapur">Mankapur</option>
+<option value="Marehra">Marehra</option>
+<option value="Mariahu">Mariahu</option>
+<option value="Maruadih">Maruadih</option>
+<option value="Maswasi">Maswasi</option>
+<option value="Mataundh">Mataundh</option>
+<option value="Mathu">Mathu</option>
+<option value="Mathura">Mathura</option>
+<option value="Mathura Cantonment">Mathura Cantonment</option>
+<option value="Mau">Mau</option>
+<option value="Mau Aima">Mau Aima</option>
+<option value="Maudaha">Maudaha</option>
+<option value="Mauranipur">Mauranipur</option>
+<option value="Maurawan">Maurawan</option>
+<option value="Mawana">Mawana</option>
+<option value="Meerut">Meerut</option>
+<option value="Mehnagar">Mehnagar</option>
+<option value="Mehndawal">Mehndawal</option>
+<option value="Mendu">Mendu</option>
+<option value="Milak">Milak</option>
+<option value="Miranpur">Miranpur</option>
+<option value="Mirat">Mirat</option>
+<option value="Mirat Cantonment">Mirat Cantonment</option>
+<option value="Mirganj">Mirganj</option>
+<option value="Mirzapur">Mirzapur</option>
+<option value="Misrikh">Misrikh</option>
+<option value="Modinagar">Modinagar</option>
+<option value="Mogra Badshahpur">Mogra Badshahpur</option>
+<option value="Mohan">Mohan</option>
+<option value="Mohanpur">Mohanpur</option>
+<option value="Mohiuddinpur">Mohiuddinpur</option>
+<option value="Moradabad">Moradabad</option>
+<option value="Moth">Moth</option>
+<option value="Mubarakpur">Mubarakpur</option>
+<option value="Mughal Sarai">Mughal Sarai</option>
+<option value="Mughal Sarai Railway Settlemen">Mughal Sarai Railway Settlemen</option>
+<option value="Muhammadabad">Muhammadabad</option>
+<option value="Muhammadi">Muhammadi</option>
+<option value="Mukrampur Khema">Mukrampur Khema</option>
+<option value="Mundia">Mundia</option>
+<option value="Mundora">Mundora</option>
+<option value="Muradnagar">Muradnagar</option>
+<option value="Mursan">Mursan</option>
+<option value="Musafirkhana">Musafirkhana</option>
+<option value="Muzaffarnagar">Muzaffarnagar</option>
+<option value="Nadigaon">Nadigaon</option>
+<option value="Nagina">Nagina</option>
+<option value="Nagram">Nagram</option>
+<option value="Nai Bazar">Nai Bazar</option>
+<option value="Nainana Jat">Nainana Jat</option>
+<option value="Najibabad">Najibabad</option>
+<option value="Nakur">Nakur</option>
+<option value="Nanaunta">Nanaunta</option>
+<option value="Nandgaon">Nandgaon</option>
+<option value="Nanpara">Nanpara</option>
+<option value="Naraini">Naraini</option>
+<option value="Narauli">Narauli</option>
+<option value="Naraura">Naraura</option>
+<option value="Naugawan Sadat">Naugawan Sadat</option>
+<option value="Nautanwa">Nautanwa</option>
+<option value="Nawabganj">Nawabganj</option>
+<option value="Nichlaul">Nichlaul</option>
+<option value="Nidhauli Kalan">Nidhauli Kalan</option>
+<option value="Nihtaur">Nihtaur</option>
+<option value="Nindaura">Nindaura</option>
+<option value="Niwari">Niwari</option>
+<option value="Nizamabad">Nizamabad</option>
+<option value="Noida">Noida</option>
+<option value="Northern Railway Colony">Northern Railway Colony</option>
+<option value="Nurpur">Nurpur</option>
+<option value="Nyoria Husenpur">Nyoria Husenpur</option>
+<option value="Nyotini">Nyotini</option>
+<option value="Obra">Obra</option>
+<option value="Oel Dhakwa">Oel Dhakwa</option>
+<option value="Orai">Orai</option>
+<option value="Oran">Oran</option>
+<option value="Ordinance Factory Muradnagar">Ordinance Factory Muradnagar</option>
+<option value="Pachperwa">Pachperwa</option>
+<option value="Padrauna">Padrauna</option>
+<option value="Pahasu">Pahasu</option>
+<option value="Paintepur">Paintepur</option>
+<option value="Pali">Pali</option>
+<option value="Palia Kalan">Palia Kalan</option>
+<option value="Parasi">Parasi</option>
+<option value="Parichha">Parichha</option>
+<option value="Parichhatgarh">Parichhatgarh</option>
+<option value="Parsadepur">Parsadepur</option>
+<option value="Patala">Patala</option>
+<option value="Patiyali">Patiyali</option>
+<option value="Patti">Patti</option>
+<option value="Pawayan">Pawayan</option>
+<option value="Phalauda">Phalauda</option>
+<option value="Phaphund">Phaphund</option>
+<option value="Phulpur">Phulpur</option>
+<option value="Phulwaria">Phulwaria</option>
+<option value="Pihani">Pihani</option>
+<option value="Pilibhit">Pilibhit</option>
+<option value="Pilkana">Pilkana</option>
+<option value="Pilkhuwa">Pilkhuwa</option>
+<option value="Pinahat">Pinahat</option>
+<option value="Pipalsana Chaudhari">Pipalsana Chaudhari</option>
+<option value="Pipiganj">Pipiganj</option>
+<option value="Pipraich">Pipraich</option>
+<option value="Pipri">Pipri</option>
+<option value="Pratapgarh">Pratapgarh</option>
+<option value="Pukhrayan">Pukhrayan</option>
+<option value="Puranpur">Puranpur</option>
+<option value="Purdil Nagar">Purdil Nagar</option>
+<option value="Purqazi">Purqazi</option>
+<option value="Purwa">Purwa</option>
+<option value="Qasimpur">Qasimpur</option>
+<option value="Rabupura">Rabupura</option>
+<option value="Radha Kund">Radha Kund</option>
+<option value="Rae Bareilly">Rae Bareilly</option>
+<option value="Raja Ka Rampur">Raja Ka Rampur</option>
+<option value="Rajapur">Rajapur</option>
+<option value="Ramkola">Ramkola</option>
+<option value="Ramnagar">Ramnagar</option>
+<option value="Rampur">Rampur</option>
+<option value="Rampur Bhawanipur">Rampur Bhawanipur</option>
+<option value="Rampur Karkhana">Rampur Karkhana</option>
+<option value="Rampur Maniharan">Rampur Maniharan</option>
+<option value="Rampura">Rampura</option>
+<option value="Ranipur">Ranipur</option>
+<option value="Rashidpur Garhi">Rashidpur Garhi</option>
+<option value="Rasra">Rasra</option>
+<option value="Rasulabad">Rasulabad</option>
+<option value="Rath">Rath</option>
+<option value="Raya">Raya</option>
+<option value="Renukut">Renukut</option>
+<option value="Reoti">Reoti</option>
+<option value="Richha">Richha</option>
+<option value="Risia Bazar">Risia Bazar</option>
+<option value="Rithora">Rithora</option>
+<option value="Robertsganj">Robertsganj</option>
+<option value="Roza">Roza</option>
+<option value="Rudarpur">Rudarpur</option>
+<option value="Rudauli">Rudauli</option>
+<option value="Rudayan">Rudayan</option>
+<option value="Rura">Rura</option>
+<option value="Rustamnagar Sahaspur">Rustamnagar Sahaspur</option>
+<option value="Sabatwar">Sabatwar</option>
+<option value="Sadabad">Sadabad</option>
+<option value="Sadat">Sadat</option>
+<option value="Safipur">Safipur</option>
+<option value="Sahanpur">Sahanpur</option>
+<option value="Saharanpur">Saharanpur</option>
+<option value="Sahaspur">Sahaspur</option>
+<option value="Sahaswan">Sahaswan</option>
+<option value="Sahawar">Sahawar</option>
+<option value="Sahibabad">Sahibabad</option>
+<option value="Sahjanwa">Sahjanwa</option>
+<option value="Sahpau">Sahpau</option>
+<option value="Saidpur">Saidpur</option>
+<option value="Sainthal">Sainthal</option>
+<option value="Saiyadraja">Saiyadraja</option>
+<option value="Sakhanu">Sakhanu</option>
+<option value="Sakit">Sakit</option>
+<option value="Salarpur Khadar">Salarpur Khadar</option>
+<option value="Salimpur">Salimpur</option>
+<option value="Salon">Salon</option>
+<option value="Sambhal">Sambhal</option>
+<option value="Sambhawali">Sambhawali</option>
+<option value="Samdhan">Samdhan</option>
+<option value="Samthar">Samthar</option>
+<option value="Sandi">Sandi</option>
+<option value="Sandila">Sandila</option>
+<option value="Sarai akil">Sarai akil</option>
+<option value="Sarai Mir">Sarai Mir</option>
+<option value="Sarauli">Sarauli</option>
+<option value="Sardhana">Sardhana</option>
+<option value="Sarila">Sarila</option>
+<option value="Sarsawan">Sarsawan</option>
+<option value="Sasni">Sasni</option>
+<option value="Satrikh">Satrikh</option>
+<option value="Saunkh">Saunkh</option>
+<option value="Saurikh">Saurikh</option>
+<option value="Seohara">Seohara</option>
+<option value="Sewal Khas">Sewal Khas</option>
+<option value="Sewarhi">Sewarhi</option>
+<option value="Shahabad">Shahabad</option>
+<option value="Shahganj">Shahganj</option>
+<option value="Shahi">Shahi</option>
+<option value="Shahjahanpur">Shahjahanpur</option>
+<option value="Shahjahanpur Cantonment">Shahjahanpur Cantonment</option>
+<option value="Shahpur">Shahpur</option>
+<option value="Shamli">Shamli</option>
+<option value="Shamsabad">Shamsabad</option>
+<option value="Shankargarh">Shankargarh</option>
+<option value="Shergarh">Shergarh</option>
+<option value="Sherkot">Sherkot</option>
+<option value="Shikarpur">Shikarpur</option>
+<option value="Shikohabad">Shikohabad</option>
+<option value="Shisgarh">Shisgarh</option>
+<option value="Shivdaspur">Shivdaspur</option>
+<option value="Shivli">Shivli</option>
+<option value="Shivrajpur">Shivrajpur</option>
+<option value="Shohratgarh">Shohratgarh</option>
+<option value="Siddhanur">Siddhanur</option>
+<option value="Siddharthnagar">Siddharthnagar</option>
+<option value="Sidhauli">Sidhauli</option>
+<option value="Sidhpura">Sidhpura</option>
+<option value="Sikandarabad">Sikandarabad</option>
+<option value="Sikandarpur">Sikandarpur</option>
+<option value="Sikandra">Sikandra</option>
+<option value="Sikandra Rao">Sikandra Rao</option>
+<option value="Singahi Bhiraura">Singahi Bhiraura</option>
+<option value="Sirathu">Sirathu</option>
+<option value="Sirsa">Sirsa</option>
+<option value="Sirsaganj">Sirsaganj</option>
+<option value="Sirsi">Sirsi</option>
+<option value="Sisauli">Sisauli</option>
+<option value="Siswa Bazar">Siswa Bazar</option>
+<option value="Sitapur">Sitapur</option>
+<option value="Siyana">Siyana</option>
+<option value="Som">Som</option>
+<option value="Sonbhadra">Sonbhadra</option>
+<option value="Soron">Soron</option>
+<option value="Suar">Suar</option>
+<option value="Sukhmalpur Nizamabad">Sukhmalpur Nizamabad</option>
+<option value="Sultanpur">Sultanpur</option>
+<option value="Sumerpur">Sumerpur</option>
+<option value="Suriyawan">Suriyawan</option>
+<option value="Swamibagh">Swamibagh</option>
+<option value="Tajpur">Tajpur</option>
+<option value="Talbahat">Talbahat</option>
+<option value="Talgram">Talgram</option>
+<option value="Tambaur">Tambaur</option>
+<option value="Tanda">Tanda</option>
+<option value="Tatarpur Lallu">Tatarpur Lallu</option>
+<option value="Tetribazar">Tetribazar</option>
+<option value="Thakurdwara">Thakurdwara</option>
+<option value="Thana Bhawan">Thana Bhawan</option>
+<option value="Thiriya Nizamat Khan">Thiriya Nizamat Khan</option>
+<option value="Tikaitnagar">Tikaitnagar</option>
+<option value="Tikri">Tikri</option>
+<option value="Tilhar">Tilhar</option>
+<option value="Tindwari">Tindwari</option>
+<option value="Tirwaganj">Tirwaganj</option>
+<option value="Titron">Titron</option>
+<option value="Tori Fatehpur">Tori Fatehpur</option>
+<option value="Tulsipur">Tulsipur</option>
+<option value="Tundla">Tundla</option>
+<option value="Tundla Kham">Tundla Kham</option>
+<option value="Tundla Railway Colony">Tundla Railway Colony</option>
+<option value="Ugu">Ugu</option>
+<option value="Ujhani">Ujhani</option>
+<option value="Ujhari">Ujhari</option>
+<option value="Umri">Umri</option>
+<option value="Umri Kalan">Umri Kalan</option>
+<option value="Un">Un</option>
+<option value="Unchahar">Unchahar</option>
+<option value="Unnao">Unnao</option>
+<option value="Usaihat">Usaihat</option>
+<option value="Usawan">Usawan</option>
+<option value="Utraula">Utraula</option>
+<option value="Varanasi">Varanasi</option>
+<option value="Varanasi Cantonment">Varanasi Cantonment</option>
+<option value="Vijaigarh">Vijaigarh</option>
+<option value="Vrindavan">Vrindavan</option>
+<option value="Wazirganj">Wazirganj</option>
+<option value="Zafarabad">Zafarabad</option>
+<option value="Zaidpur">Zaidpur</option>
+<option value="Zamania">Zamania</option>
+                        </select>
+                     </div>
+                     <div class="form-group col-xs-12 col-sm-4"> 
+                        <input type="text" class="form-control" placeholder="pinCode" id="u_pincode">
+                     </div>
+                  </div>
+                  <hr>
+                  <label>Personal Details</label>
+                  <div class="row">
+                     <div class="form-group col-xs-12 col-sm-4">
+                        <input type="text" class="form-control" placeholder="Name" id="u_name">
+                     </div>
+                     <div class="form-group col-xs-12 col-sm-4">
+                        <input type="text" class="form-control" placeholder="Email" id="u_email">
+                     </div>
+                     <div class="form-group col-xs-12 col-sm-4">
+                        <input type="text" class="form-control" placeholder="Mobile Number" id="u_mobile">
+                     </div>
+                     <div class="form-group col-xs-12 col-sm-6">
+                        <label>Upload Doucument</label>
+                        <input type="file" id="document_user" name="document_user">
+                     </div>
+                  </div>
+                  <div class="">
+                     <a id="submit_enquery" class="btn form-button">Submit</a>
+                  </div> 
+               </form>
+            </div>
+         </div>
+      </div>
+   </section>
+</main>
+<!-- END Main container -->
+<!-- Site footer -->
+
+     <!-- Footer Section Begin -->
+     <footer class="footer">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-3 col-md-6 col-sm-6">
+                  <div class="footer__about">
+                      <div class="footer__logo">
+                          <a href="#"><img src="web_assets/img/logo.png" alt="" width="64px"></a>
+                      </div>
+                      <p>Please remember though that how far you go is up to you. There is no substitute for your own
+                          work and effort in succeeding in this business.</p>
+                  </div>
+              </div>
+              <div class="col-lg-2 offset-lg-1 col-md-3 col-sm-6">
+                  <div class="footer__widget">
+                      <h5>Services</h5>
+                      <div class="footer__widget">
+                          <ul>
+                               <li><a href="home-loan.html">Home loan</a></li>
+                               <li><a href="car-loan.html">Car Loan</a></li>
+                               <li><a href="personal-loan.html">Personal Loan</a></li>
+                               <li><a href="business-loan.html">Business Loan</a></li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-2 col-md-3 col-sm-6">
+                  <div class="footer__widget">
+                      <h5>Socials</h5>
+                      <div class="footer__widget footer__widget--social">
+                          <ul>
+                              <li><a target="_blank" href="#"><i class="fa fa-facebook"></i> Facebook</a></li>
+                              <li><a target="_blank" href="#"><i class="fa fa-instagram"></i> Instagram</a></li>
+                              <li><a href="#"><i class="fa fa-twitter"></i> Twitter</a></li>
+                              <!-- <li><a href="#"><i class="fa fa-skype"></i> Skype</a></li> -->
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-3 offset-lg-1 col-md-6 col-sm-6">
+                  <div class="footer__widget footer__widget--address">
+                      <h5>Contact Us</h5>
+                      <!--<p>We work all days a week, Please contact us for any inquiry.</p>-->
+                      <ul>
+                          <li>B - 309, Khoobram Park, </li>
+                          <li>2nd Floor, Premnagar - 1,</li>
+                          <li>Nangloi, Delhi - 110087</li>
+                          <li>(+91) 9871891633, 7838680954</li>
+                          <li>Md@creditbulls.co.in</li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+          <div class="footer__copyright">
+              <div class="row">
+                  <!--<div class="col-lg-6 col-md-6">-->
+                  <!--    <ul class="footer__copyright__links">-->
+                  <!--        <li><a href="#">Terms of use</a></li>-->
+                  <!--        <li><a href="#">Privacy Policy</a></li>-->
+                  <!--        <li><a href="#">Community</a></li>-->
+                  <!--    </ul>-->
+                  <!--</div>-->
+                  <div class="col-lg-12 col-md-12">
+                      <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                      <div class="text-center">
+                          <p>Copyright &copy All rights reserved </p>
+                      </div>
+                      <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                  </div>
+              </div>
+          </div>
+      </div>
+  </footer>
+  <!-- Footer Section End -->
+
+    
+
+
+    <!-- Js Plugins -->
+    <script src="web_assets/js/jquery-3.3.1.min.js"></script>
+    <script src="web_assets/js/bootstrap.min.js"></script>
+    <script src="web_assets/js/jquery.nice-select.min.js"></script>
+    <script src="web_assets/js/jquery-ui.min.js"></script>
+    <script src="web_assets/js/jquery.nicescroll.min.js"></script>
+    <script src="web_assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="web_assets/js/jquery.slicknav.js"></script>
+    <script src="web_assets/js/owl.carousel.min.js"></script>
+    <script src="web_assets/js/main.js"></script>
+    <script src="aos@2.3.1/dist/aos.js"></script>
+
+    <!---- login ---->
+
+<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+
+    <div class="modal-dialog">
+
+        <div class="modal-content"> 
+
+              <button type="button" class="close text-right paddingCross zIndex1" data-dismiss="modal">
+
+                  <span aria-hidden="true">×</span>
+
+                  <span class="sr-only">Close</span>
+
+              </button> 
+
+            <div class="modal-body"> 
+
+                <div class="text-center">
+
+                  <img src="http://www.fastcredit.co.in/web_assets/img/logo.png" width="80px">
+
+                    <br>
+
+                  <h3 class="paddingTop30">LOGIN</h3>
+
+                </div>
+
+                  <div>
+
+                      <form class="formPadding" id="loginForm" name="loginForm">
+
+                        <div class="form-group">
+
+                          <label for="email">Email address:</label>
+
+                          <input type="email" class="form-control" name="emailLog" id="emailLog">
+
+                        </div>
+
+                        <div class="form-group">
+
+                          <label for="pwd">Password:</label>
+
+                          <input type="password" class="form-control" name="passLog" id="passLog">
+
+                        </div>
+
+                        <div class="row">
+
+                        <div class="col-md-6 col-12">
+
+                             <div class="checkbox">
+
+                             <label><input type="checkbox"> Remember me</label>
+
+                           </div>
+
+                          </div>
+
+                         <div class="col-md-6 col-12">
+
+                          <div class="text-right">
+
+                             <p><a href="#" data-toggle="modal" data-target="#forgotPass" id="forpass" data-dismiss="modal">Forgot Password ?</a></p>
+
+                           </div>
+
+                        </div>
+
+                      </div>
+
+                        <div class="text-center paddingTop30">
+
+                            <button class="btn login-btn btn-bold" type="submit"><span>LOGIN</span></button>
+
+                            <p class="marginTop10">New User? <a href="#" data-toggle="modal" data-target="#register" id="newUser" data-dismiss="modal">SignUp here</a></p>
+
+                        </div>
+
+                      </form>
+
+                  </div>
+
+            </div>  
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<!----- registration ----->
+
+<div class="modal fade" id="register" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+
+    <div class="modal-dialog">
+
+        <div class="modal-content"> 
+
+              <button type="button" class="close text-right paddingCross zIndex1" data-dismiss="modal">
+
+                  <span aria-hidden="true">×</span>
+
+                  <span class="sr-only">Close</span>
+
+              </button>   
+
+            <div class="modal-body"> 
+
+                <div class="text-center">
+
+                  <img src="http://www.fastcredit.co.in/web_assets/img/logo.png" width="80px">
+
+                    <br>
+
+                  <h3 class="paddingTop30">CREATE YOUR ACCOUNT</h3>
+
+                </div>
+
+                  <div>
+
+                      <form class="formPadding" name="registration" id="registration" method="post">
+
+                        <div class="row">
+
+                          <div class="col-md-6 col-12">
+
+                            <div class="form-group">
+
+                              <label for="name">First Name:</label>
+
+                              <input type="text" class="form-control" name="firstname" id="firstname">
+
+                            </div>
+
+                          </div>
+
+                          <div class="col-md-6 col-12">
+
+                             <div class="form-group">
+
+                              <label for="pwd">Last Name:</label>
+
+                              <input type="text" class="form-control" name="lastname" id="lastname">
+
+                            </div>
+
+                          </div>
+
+                           <div class="col-md-6 col-12">
+
+                             <div class="form-group">
+
+                              <label for="pwd">Email:</label>
+
+                              <input type="email" class="form-control" name="email" id="emailreg">
+
+                            </div>
+
+                          </div>
+
+                           <div class="col-md-6 col-12">
+
+                             <div class="form-group">
+
+                              <label for="pwd">Mobile:</label>
+
+                              <input type="text" class="form-control" name="mabile" id="mobileReg">
+
+                            </div>
+
+                          </div>
+
+                           <div class="col-md-6 col-12">
+
+                            <div class="form-group">
+
+                              <label for="cpwd">Password:</label>
+
+                              <input type="password" class="form-control" name="password" id="passwordReg">
+
+                            </div>
+
+                          </div>
+
+                          <div class="col-md-6 col-12">
+
+                            <div class="form-group">
+
+                              <label for="cpwd">Confirm Password:</label>
+
+                              <input type="password" class="form-control" name="confirmpassword" id="confirmpassword">
+
+                            </div>
+
+                          </div>
+
+                        </div>
+
+                            <div class="text-center paddingTop30">
+
+                                <button type="submit" class="btn login-btn btn-bold"><span>CREATE ACCOUNT</span></button>
+
+                            <p class="marginTop10">Already have account? <a href="#" data-toggle="modal" data-target="#login" id="alreadyAccount" data-dismiss="modal">SignIn here</a></p>
+
+                            </div>
+
+                      </form>
+
+                  </div>
+
+            </div> 
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<!----- email or mabile varification------>
+
+<div class="modal fade" id="forgotPass" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+
+    <div class="modal-dialog">
+
+        <div class="modal-content"> 
+
+              <button type="button" class="close text-right paddingCross zIndex1" data-dismiss="modal">
+
+                  <span aria-hidden="true">×</span>
+
+                  <span class="sr-only">Close</span>
+
+              </button> 
+
+            <div class="modal-body"> 
+
+                <div class="text-center">
+
+                 <img src="http://www.fastcredit.co.in/web_assets/img/logo.png" width="80px">
+
+                    <br>
+
+                  <h3 class="paddingTop30">ENTER YOUR EMAIL</h3>
+
+                </div>
+
+                  <div>
+
+                      <form class="formPadding" id="vaildemai">
+
+                        <div class="form-group">
+
+                          <label for="email">Email address:</label>
+
+                          <input type="email" id="email_check" class="form-control">
+
+                        </div>
+
+                        <div class="text-center paddingTop30">
+
+                            <button type="submit" class="btn login-btn"><span>RESET PASSWORD</span></button>
+
+                        </div>
+
+                      </form>
+
+                  </div>
+
+            </div>  
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+
+
+
+
+<!----- Reset Password ------>
+
+<div class="modal fade" id="resetPassword" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+
+    <div class="modal-dialog">
+
+        <div class="modal-content"> 
+
+              <button type="button" class="close text-right paddingCross zIndex1" data-dismiss="modal">
+
+                  <span aria-hidden="true">×</span>
+
+                  <span class="sr-only">Close</span>
+
+              </button> 
+
+            <div class="modal-body"> 
+
+                <div class="text-center">
+
+                   <img src="http://www.fastcredit.co.in/web_assets/img/logo.png" width="80px">
+
+                    <br>
+
+                  <h3 class="paddingTop30">RESET YOUR PASSWORD NOW</h3>
+
+                </div>
+
+                  <div>
+
+                      <form class="formPadding" id="create_nrewpass">
+
+                        <div class="form-group">
+
+                          <label for="email">New Password</label>
+
+                          <input type="text" id="new_pass" class="form-control">
+
+                        </div>
+
+                        <div class="form-group">
+
+                          <label for="pwd">Confirm Password</label>
+
+                          <input type="password" id="new_pass_conf" class="form-control">
+
+                        </div>
+
+                        <div class="text-center paddingTop30">
+
+                            <button type="submit" class="btn login-btn"><span>SUBMIT</span></button>
+
+                        </div>
+
+                      </form>
+
+                  </div>
+
+            </div>  
+
+        </div>
+
+    </div>
+
+</div>
+
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#index_form" id="index_form_btn" style="display: none;">
+
+  Open modal
+
+</button>
+
+<!----- onload index page ----->
+
+<div class="modal fade" id="index_form" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+
+    <div class="modal-dialog">
+
+        <div class="modal-content"> 
+
+              <button type="button" class="close text-right paddingCross zIndex1" data-dismiss="modal">
+
+                  <span aria-hidden="true">×</span>
+
+                  <span class="sr-only">Close</span>
+
+              </button>   
+
+            <div class="modal-body"> 
+
+                <div class="text-center">
+
+                  <h3 class="paddingTop30">SUBMIT YOUR QUERY</h3>
+
+                </div>
+
+                  <div>
+
+                      <form class="formPadding" method="post">
+
+                        <div class="row">
+
+                          <div class="col-md-6 col-12">
+
+                            <div class="form-group">
+
+                              <label for="name">Name:</label>
+
+                              <input type="text" class="form-control" placeholder="Your name*" id="name_i">
+
+                            </div>
+
+                          </div>
+
+                          <div class="col-md-6 col-12">
+
+                             <div class="form-group">
+
+                              <label for="pwd">Email:</label>
+
+                               <input type="text" class="form-control" placeholder="Your email*" id="email_i">
+
+                            </div>
+
+                          </div>
+
+                           <div class="col-md-6 col-12">
+
+                             <div class="form-group">
+
+                              <label for="pwd">Mobile:</label>
+
+                              <input type="text" class="form-control" placeholder="Your mobile*" id="mobile_i">
+
+                            </div>
+
+                          </div>
+
+                           <div class="col-md-6 col-12">
+
+                             <div class="form-group">
+
+                              <label for="pwd">Interested in:</label>
+
+                              <select class="form-control" id="subject_i">
+
+                                <option value="Home loan">Home loan</option>
+
+                                <option value="Car Loan">Car Loan</option>
+
+                                <option value="Personal Loan">Personal Loan</option>
+
+                                <option value="Loan Against Properties">Loan Against Properties</option>
+
+                                <option value="Business Loan">Business Loan</option>
+
+                                <option value="Others">Others</option>
+
+                              </select>
+
+                            </div>
+
+                          </div>
+
+                           <div class="col-md-12 col-12">
+
+                            <div class="form-group">
+
+                              <label for="cpwd">Message</label><br>
+
+                              <textarea class="form-control" placeholder="Your Message" id="message_i"></textarea>
+
+                            </div>
+
+                          </div>
+                         
+                        </div>
+
+                            <div class="text-center paddingTop30">
+
+                                <a href="javascript:void(0);" id="index_form_submit" class="btn login-btn btn-bold"><span>SUBMIT</span></a>
+
+                            </div>
+
+                      </form>
+
+                  </div>
+
+            </div> 
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<!---- registraion ----->
+
+<script type="text/javascript">
+
+  $(document).ready(function() {
+
+  $('#registration').submit(function(e) {
+
+    e.preventDefault();
+
+    var firstname = $('#firstname').val();
+
+    //console.log(firstname);
+
+    var lastname = $('#lastname').val();
+
+    var email = $('#emailreg').val();
+
+    var mobile = $('#mobileReg').val();
+
+    var password = $('#passwordReg').val();
+
+    var confirmpassword = $('#confirmpassword').val();
+
+
+
+
+
+    $(".error-2").remove();
+
+
+
+    if (firstname == "") {
+
+      $('#firstname').after('<span class="error-2">Enter your first name</span>');
+
+      return false;
+
+    }
+
+    if (lastname == "") {
+
+      $('#lastname').after('<span class="error-2">Enter your last name</span>');
+
+      return false;
+
+    }
+
+    if (mobile == "") {
+
+      $('#mobileReg').after('<span class="error-2">Enter your mobile</span>');
+
+      return false;
+
+    }
+
+    if (email == "") {
+
+      $('#emailreg').after('<span class="error-2">Enter your email id</span>');
+
+    } else {
+
+      var regEx = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+
+      var validEmail = regEx.test(email);
+
+      if (!validEmail) {
+
+        $('#emailreg').after('<span class="error-2">Enter a valid email</span>');
+
+        return false;
+
+      }
+
+    }
+
+    if (password == "") {
+
+      $('#passwordReg').after('<span class="error-2">Password must be at least 8 characters long</span>');
+
+      return false;
+
+    }
+
+    if (confirmpassword == "") {
+
+      $('#confirmpassword').after('<span class="error-2">Confirm your password</span>');
+
+      return false;
+
+    }
+
+    if(password !== confirmpassword){
+
+          $('#confirmpassword').after('<span class="error-2">Password not match</span>');
+
+          return false;
+
+    }
+
+
+
+    var name = firstname + " " + lastname; 
+
+     jQuery.ajax({
+
+                url: "http://www.fastcredit.co.in/web_panel/User/register",
+
+                method: "post", 
+
+                dataType: "json",
+
+                data: {
+
+                    name: name,
+
+                    email: email,
+
+                    mobile: mobile,
+
+                    password: password,
+
+                },
+
+                success: function (data) {
+
+                    console.log("ajax");
+
+                    //var data = JSON.parse(data);
+
+                    if (data.status == true) {
+
+                          swal({
+
+                            title: "Good job!",
+
+                            text: "Registration Successfull!",
+
+                            icon: "success",
+
+                            timer: 1000,
+
+                        }).then(function () {
+
+                            window.location.reload();
+
+                        });
+
+                        
+
+                    } else {
+
+                       swal("Error", data.message);
+
+                    }
+
+                }
+
+            });
+
+  });
+
+});
+
+
+
+</script>
+
+
+
+<!----- login  ------->
+
+<script type="text/javascript">
+
+  $(document).ready(function() {
+
+  $('#loginForm').submit(function(e) {
+
+    e.preventDefault();
+
+    var email = $('#emailLog').val();
+
+    var password = $('#passLog').val();
+
+
+
+    $(".error-2").remove();
+
+
+
+   
+
+    if (email == "") {
+
+      $('#emailLog').after('<span class="error-2">Enter your register email id or mobile</span>');
+
+      $('#emailLog').focus();
+
+      return false;
+
+    } else {
+
+      var regEx = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+
+      var validEmail = regEx.test(email);
+
+      if (!validEmail) {
+
+        $('#emailLog').after('<span class="error-2">email id or mobile not correct</span>');
+
+        $('#emailLog').focus();
+
+        return false;
+
+      }
+
+    }
+
+    if (password == "") {
+
+      $('#passLog').after('<span class="error-2">Enter your password</span>');
+
+      $('#passLog').focus();
+
+      return false;
+
+    }
+
+
+
+
+
+    jQuery.ajax({
+
+                url: "http://www.fastcredit.co.in/web_panel/User/login",
+
+                method: "post", 
+
+                dataType: "json",
+
+                data: {
+
+                    email: email,
+
+                    password: password,
+
+                },
+
+                success: function (data) {
+
+                    //var data = JSON.parse(data);
+
+                    if (data.status == true) {
+
+                        // window.location.reload();
+
+                        swal({
+
+                            title: "Good job!",
+
+                            text: "login Successfull!",
+
+                            icon: "success",
+
+                            timer: 1000,
+
+                        }).then(function () {
+
+                            window.location.reload();
+
+                            window.location.href = "http://www.fastcredit.co.in//apply-for-loan";
+
+                        });
+
+                        
+
+                    } else {
+
+                         swal("authentication failed", "email id or password is not valid!");
+
+                    }
+
+                }
+
+            });
+
+  });
+
+});
+
+</script>
+
+
+
+
+
+<script type="text/javascript">
+
+  $(document).ready(function() {
+
+  $('#vaildemai').submit(function(e) {
+
+    e.preventDefault();
+
+    var email = $('#email_check').val();
+
+
+
+    $(".error-2").remove();
+
+
+
+   
+
+    if (email == "") {
+
+      $('#email_check').after('<span class="error-2">Enter your register email id or mobile</span>');
+
+      $('#email_check').focus();
+
+      return false;
+
+    } else {
+
+      var regEx = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+
+      var validEmail = regEx.test(email);
+
+      if (!validEmail) {
+
+        $('#email_check').after('<span class="error-2">email id  not correct</span>');
+
+        $('#email_check').focus();
+
+        return false;
+
+      }
+
+    }
+
+
+
+    jQuery.ajax({
+
+                url: "http://www.fastcredit.co.in/web_panel/User/validation",
+
+                method: "post", 
+
+                dataType: "json",
+
+                data: {
+
+                    email: email
+
+                },
+
+                success: function (data) {
+
+                    if (data.status == true) {
+
+                          $("#forgotPass").modal("hide");
+
+                          $("#resetPassword").modal("show");
+
+                    } else {
+
+                         swal("authentication failed", data.message);
+
+                    }
+
+                }
+
+            });
+
+  });
+
+});
+
+</script>
+
+
+
+
+
+<script type="text/javascript">
+
+  $(document).ready(function() {
+
+  $('#create_nrewpass').submit(function(e) {
+
+    e.preventDefault();
+
+    var email = $('#email_check').val();
+
+    var password = $('#new_pass').val();
+
+    var confirmpassword = $('#new_pass_conf').val();
+
+
+
+    $(".error-2").remove();
+
+    if (password == "") {
+
+      $('#new_pass').after('<span class="error-2">Password must be at least 8 characters long</span>');
+
+      return false;
+
+    }
+
+    if (confirmpassword == "") {
+
+      $('#new_pass_conf').after('<span class="error-2">Confirm your password</span>');
+
+      return false;
+
+    }
+
+    if(password !== confirmpassword){
+
+          $('#new_pass_conf').after('<span class="error-2">Password not match</span>');
+
+          return false;
+
+    }
+
+
+
+    jQuery.ajax({
+
+                url: "http://www.fastcredit.co.in/web_panel/User/update_paassword",
+
+                method: "post", 
+
+                dataType: "json",
+
+                data: {
+
+                    password: password,
+
+                    email:email
+
+                },
+
+                success: function (data) {
+
+                    if (data.status == true) {
+
+                          $("#resetPassword").modal("hide");
+
+                          $("#login").modal("show");
+
+                    } else {
+
+                         swal("authentication failed", data.message);
+
+                    }
+
+                }
+
+            });
+
+  });
+
+});
+
+</script>
+
+
+
+<script type="text/javascript">
+
+  // contact Form on index page
+
+   $('#index_form_submit').click(function(){
+    
+   
+   var name = $('#name_i').val();
+  
+   var email = $('#email_i').val();
+
+   var mobile = $('#mobile_i').val();
+
+   var subject_e =  $("#subject_i option:selected").val();
+
+   var message = $('#message_i').val();
+
+   $(".error-2").remove();
+
+   
+
+    if (name == "") {
+
+     $('#name_i').before('<div class="error-2">Enter your name</div>');
+
+     $('#name_i').focus();
+
+     return false;
+
+   }
+
+   if (email == "") {
+
+     $('#email_i').before('<div class="error-2">Enter your email</div>');
+
+     $('#email_i').focus();
+
+     return false;
+
+   } else {
+
+     var regEx = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+
+     var validEmail = regEx.test(email);
+
+     if (!validEmail) {
+
+       $('#email_i').before('<div class="error-2">Email is not correct</div>');
+
+       $('#email_i').focus();
+
+       return false;
+
+     }
+
+   }
+
+   
+
+   if (mobile == "") {
+
+     $('#mobile_i').before('<div class="error-2">Enter your mobile</div>');
+
+     $('#mobile_i').focus();
+
+     return false;
+
+   }
+
+
+
+   if($('#mobile_i').val().length!=10){
+
+     $('#mobile_i').before('<div class="error-2">number must be 10 digit</div>');
+
+     $('#mobile_i').focus();
+
+     return false;
+
+    }
+
+   if (subject_e == "") {
+
+     $('#subject_i').before('<div class="error-2">Select your interest</div>');
+
+     $('#subject_i').focus();
+
+     return false;
+
+   }
+   
+
+
+   $.ajax({
+
+       
+
+               url: "http://www.fastcredit.co.in/index.php/web_panel/contact_us/contact_us_query",
+
+               method: "post", 
+
+               dataType: "json",
+
+               data: {
+
+                   name: name,
+
+                   email: email,
+
+                   mobile: mobile,
+
+                   subject: subject_e,
+
+                   message: message,
+
+                   recaptcha: response,
+
+                   status:0
+
+               },
+
+               success: function (data) {
+
+                  
+
+                   if (data.status == true) {
+
+                     swal("Thank you for Contacting Fast Credit!", " Your query has been submitted successfully.", "success", {
+
+                         button: "Ok",})
+
+                        .then((value) => {
+
+                          location.reload();
+
+                        });
+
+                       
+
+                   } else {
+
+                     alert('pls fill the enquiry form');
+
+                   }
+
+               }
+
+   });
+
+   });
+
+</script>
+
+
+
+ <script src="sweetalert@2.1.2/dist/sweetalert.min.js"></script>
+<script type="text/javascript">
+
+   $('#submit_enquery').click(function(){
+
+    $(".error").remove();
+    var loan_for = $('#loan_for').val();
+    var amount = $('#u_amount').val();
+   
+    if (amount == "") {
+       $('#u_amount').after('<span class="error">Enter your loan amount</span>');
+       $('#u_amount').focus();
+       return false;
+    }
+
+
+    var tab_value = $('.news_tabs li .active').html();
+
+    if(tab_value == "Salaried"){
+           var company_name = $('#u_compny_name').val();
+           var designation = $('#u_designation').val();
+           var monthly_income = $('#u_monthly_income').val();
+           var employment_from = $('#u_emplyment_form').val();
+
+           
+            var ternover = "";
+            var properties = "";
+            var bussineess_type = "";
+            var professionType = "";
+            var currently_employed  = "";
+            var qalification = "";
+
+
+              if (company_name == "") {
+                 $('#u_compny_name').after('<span class="error">Enter your company name</span>');
+                 $('#u_compny_name').focus();
+                 return false;
+               }
+                if (designation == "") {
+                 $('#u_designation').after('<span class="error">Enter your designation</span>');
+                 $('#u_designation').focus();
+                 return false;
+               }
+               if (monthly_income == "") {
+                 $('#u_monthly_income').after('<span class="error">Enter your monthly income</span>');
+                 $('#u_monthly_income').focus();
+                 return false;
+               }
+                if (employment_from == "") {
+                 $('#u_emplyment_form').after('<span class="error">Your employment from ?</span>');
+                 $('#u_emplyment_form').focus();
+                 return false;
+               }
+
+    }
+
+
+     if(tab_value == "Self Employed"){
+            var company_name = $('#b_company_name').val();
+            var ternover = $('#u_ternover').val();
+            var properties = $('#u_properties').val();
+            var bussineess_type = $('#u_bussineess_type').val();
+            var designation = $('#b_desgignation').val();
+
+            
+          
+            var monthly_income = "";
+            var employment_from = "";
+
+            var professionType = "";
+            var currently_employed  = "";
+            var qalification = "";
+            
+            if (company_name == "") {
+                 $('#b_company_name').after('<span class="error">Enter your company name</span>');
+                 $('#b_company_name').focus();
+                 return false;
+               }
+               if (ternover == "") {
+                 $('#u_ternover').after('<span class="error">Enter your ternover</span>');
+                 $('#u_ternover').focus();
+                 return false;
+               }
+                if (properties == "") {
+                 $('#u_properties').after('<span class="error">Enter your profit</span>');
+                 $('#u_properties').focus();
+                 return false;
+               }
+               if (bussineess_type == "") {
+                 $('#u_bussineess_type').after('<span class="error">Enter your bussineess type</span>');
+                 $('#u_bussineess_type').focus();
+                 return false;
+               }
+                if (designation == "") {
+                 $('#b_desgignation').after('<span class="error">Enter your designation</span>');
+                 $('#b_desgignation').focus();
+                 return false;
+               }
+
+    }
+     if(tab_value == "Professional"){
+            var professionType = $("#professionType option:selected").val();
+            var currently_employed  = $('input[name="exampleRadios"]:checked').val();
+            var qalification = $('#u_qalification').val();
+            var company_name = $('#s_company_name').val();
+            var designation = $('#s_degisgantion').val();
+            var monthly_income = $('#s_monthly_income').val();
+
+
+
+            var ternover = "";
+            var properties = ""
+            var bussineess_type = "";
+
+            var employment_from = "";
+
+             
+             if (professionType == "") {
+                 $('.professionType .nice-select').after('<span class="error">Select your profession type</span>');
+                 $('.professionType .nice-select').focus();
+                 return false;
+             }
+              if (currently_employed == "") {
+                 $('#exampleRadios').after('<span class="error">Select your employed</span>');
+                 $('#exampleRadios').focus();
+                 return false;
+               }
+
+             if (qalification == "") {
+                 $('#u_qalification').after('<span class="error">Enter your qalification</span>');
+                 $('#u_qalification').focus();
+                 return false;
+               }
+             if (company_name == "") {
+                 $('#s_company_name').after('<span class="error">Enter your company name</span>');
+                 $('#s_company_name').focus();
+                 return false;
+               }
+                if (designation == "") {
+                 $('#s_degisgantion').after('<span class="error">Enter your designation</span>');
+                 $('#s_degisgantion').focus();
+                 return false;
+               }
+               
+               
+               if (monthly_income == "") {
+                 $('#s_monthly_income').after('<span class="error">Enter your monthly income</span>');
+                 $('#s_monthly_income').focus();
+                 return false;
+               }
+
+                
+    }
+
+   
+   var loan_type = $("#loan_type option:selected").val();
+   var bank_name = $('#bank_name option:selected').val();
+   var running_emi = $('#running_emi').val();
+
+    if (running_emi == "") {
+     $('#running_emi').after('<span class="error">Enter your emi</span>');
+     $('#running_emi').focus();
+     return false;
+   }
+    if (loan_type == "") {
+     $('.loan_type .nice-select').after('<span class="error">Enter your loan type</span>');
+     $('.loan_type .nice-select').focus();
+     return false;
+   }
+    if (bank_name == "") {
+     $('.bank_name .nice-select').after('<span class="error">Enter your bank</span>');
+     $('.bank_name .nice-select').focus();
+     return false;
+   }
+
+
+   var location_user = $('#location_user  option:selected').val();
+   var u_pincode = $('#u_pincode').val();
+   
+
+    if (location_user == "") {
+     $('.location_user .nice-select').after('<span class="error">Select your location</span>');
+     $('.location_user .nice-select').focus();
+     return false;
+   }
+    if (u_pincode == "") {
+     $('#u_pincode').after('<span class="error">Enter your pincode</span>');
+     $('#u_pincode').focus();
+     return false;
+   }
+
+
+   var name = $('#u_name').val();
+   var email = $('#u_email').val();
+   var mobile = $('#u_mobile').val();
+   var doc = document.getElementById('document_user').files[0];
+
+
+  
+   
+  if (name == "") {
+     $('#u_name').after('<span class="error">Enter your name</span>');
+     $('#u_name').focus();
+     return false;
+   }
+   
+   if (email == "") {
+     $('#u_email').after('<span class="error">Enter your email id</span>');
+     $('#u_email').focus();
+     return false;
+   } else {
+     var regEx = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+     var validEmail = regEx.test(email);
+     if (!validEmail) {
+       $('#u_email').after('<span class="error">email id  not correct</span>');
+       $('#u_email').focus();
+       return false;
+     }
+   }
+   
+   if (mobile == "") {
+     $('#u_mobile').after('<span class="error">Enter your mobile</span>');
+     $('#u_mobile').focus();
+     return false;
+   }
+   if($('#u_mobile').val().length!=10){
+     $('#u_mobile').before('<div class="error">number must be 10 digit</div>');
+     $('#u_mobile').focus();
+     return false;
+    }
+
+    if (doc == "") {
+      $('#document_user').after('<span class="error">upload document</span>');
+      $('#document_user').focus();
+       return false;
+    }
+   
+    var formData = new FormData();
+    formData.append("doc", doc);
+    formData.append("loan_for", loan_for);
+    formData.append("amount", amount);
+    formData.append("compny_name", company_name);
+    formData.append("designation", designation);
+    formData.append("monthly_income", monthly_income);
+    formData.append("employment_from", employment_from);
+    formData.append("ternover", ternover);
+    formData.append("properties", properties);
+    formData.append("business_Type", bussineess_type);
+    formData.append("profession_type", professionType);
+    formData.append("currently_employed", currently_employed);
+    formData.append("qalification", qalification);
+
+    formData.append("loan_type", loan_type);
+    formData.append("bank_name", bank_name);
+    formData.append("running_emi", running_emi);
+    formData.append("location_user", location_user);
+
+    formData.append("u_pincode", u_pincode);
+    formData.append("name", name);
+    formData.append("email", email);
+    formData.append("mobile", mobile);
+    formData.append("profession_status", 0);
+ 
+   $.ajax({
+       
+               url: "http://www.fastcredit.co.in/web_panel/form/loan_enquery",
+               method: "post", 
+               dataType: "json",
+                contentType: false,
+                cache: false,
+                processData:false,
+                data: formData,
+               // data: {
+               //     loan_for: loan_for,
+               //     amount: amount,
+               //     compny_name: company_name,
+               //     designation: designation,
+               //     monthly_income:monthly_income,
+               //     employment_from: employment_from,
+               //     ternover:ternover,
+
+               //     properties:properties,
+               //     business_Type: bussineess_type,
+               //     profession_type:professionType,
+               //     currently_employed: currently_employed,
+               //     qalification:qalification,
+
+               //     loan_type: loan_type,
+               //     bank_name:bank_name,
+               //     running_emi: running_emi,
+               //     location_user:location_user,
+               //     u_pincode: u_pincode,
+               //     name:name,
+               //     email: email,
+               //     mobile:mobile,
+               //     profession_status:0
+               // },
+               success: function (data) {
+                  
+                   if (data.status == true) {
+                         swal("Good job!", "Your query has been summited successfully!", "success", {
+                         button: "Ok",})
+                        .then((value) => {
+                          location.reload();
+                        });
+                       
+                   } else {
+                     swal("Good job!", "Your query has been summited successfully!", "success", {
+                         button: "Ok",});
+                   }
+               }
+   });
+   });
+</script>
+
+<!-- <script type="text/javascript">
+  // contact Form
+   $('#submit_contact_btn').click(function(){
+   var name = $('#name_e').val();
+   var email = $('#email_e').val();
+   var mobile = $('#mobile_e').val();
+   var subject_e = $('#subject_e').val();
+   var message = $('#message_e').val();
+   $(".error").remove();
+   
+    if (name == "") {
+     $('#name_e').before('<div class="error">Enter your name</div>');
+     $('#name_e').focus();
+     return false;
+   }
+   
+   if (email == "") {
+     $('#email_e').before('<div class="error">Enter your email id</div>');
+     $('#email_e').focus();
+     return false;
+   } else {
+     var regEx = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+     var validEmail = regEx.test(email);
+     if (!validEmail) {
+       $('#email_e').before('<div class="error">email id  not correct</div>');
+       $('#email_e').focus();
+       return false;
+     }
+   }
+   
+   if (mobile == "") {
+     $('#mobile_e').before('<div class="error">Enter your mobile</div>');
+     $('#mobile_e').focus();
+     return false;
+   }
+   // if (message == "") {
+   //   $('#meesage_e').after('<span class="error">Enter your meassage</span>');
+   //   $('#meesage_e').focus();
+   //   return false;
+   // }
+   
+   $.ajax({
+       
+               url: "http://www.fastcredit.co.in/index.php/web_panel/contact_us/contact_us_query", 
+               method: "post", 
+               dataType: "json",
+               data: {
+                   name: name,
+                   email: email,
+                   mobile: mobile,
+                   subject: subject_e,
+                   message: message,
+                   status:0
+               },
+               success: function (data) {
+                  
+                   if (data.status == true) {
+                     swal("Thank you for Contacting Fast Credit!", " Your query has been submitted successfully.", "success", {
+                         button: "Ok",})
+                        .then((value) => {
+                          location.reload();
+                        });
+                       
+                   } else {
+                     alert('pls fill the enquiry form');
+                   }
+               }
+   });
+   });
+</script> -->
+
+<script type="text/javascript">
+
+  // Numeric only control handler
+jQuery.fn.ForceNumericOnly =
+function ForceNumericOnly()
+{
+    return this.each(function()
+    {
+        $(this).keydown(function(e)
+        {
+            var key = e.charCode || e.keyCode || 0;
+            // allow backspace, tab, delete, enter, arrows, numbers and keypad numbers ONLY
+            // home, end, period, and numpad decimal
+            return (
+                key == 8 || 
+                key == 9 ||
+                key == 13 ||
+                key == 46 ||
+                key == 110 ||
+                key == 190 ||
+                (key >= 35 && key <= 40) ||
+                (key >= 48 && key <= 57) ||
+                (key >= 96 && key <= 105));
+        });
+    });
+};
+
+$("#mobile_i").ForceNumericOnly(); 
+$("#u_monthly_income").ForceNumericOnly(); 
+$("#u_pincode").ForceNumericOnly(); 
+$("#u_mobile").ForceNumericOnly(); 
+$("#running_emi").ForceNumericOnly(); 
+$("#u_amount").ForceNumericOnly();
+$("#u_ternover").ForceNumericOnly(); 
+$("#u_properties").ForceNumericOnly(); 
+$("#s_monthly_income").ForceNumericOnly(); 
+$("#mobile_e").ForceNumericOnly(); 
+$("#mobileReg").ForceNumericOnly(); 
+ 
+</script>
+</body>
+</html>

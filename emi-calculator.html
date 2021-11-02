@@ -1,0 +1,289 @@
+﻿
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<meta name="keywords" content="">
+		
+		<!--CSS-->
+		<link rel="stylesheet" href="web_assets/calculator/css/bootstrap.min.css">
+		<link rel="stylesheet" href="ajax/libs/bootstrap-select/1.5.4/bootstrap-select.min.css">
+		<link rel="stylesheet" href="web_assets/css/style.css" type="text/css">
+		<link rel="stylesheet" href="web_assets/calculator/css/main.css">
+		<link rel="stylesheet" href="web_assets/calculator/css/calculator.css">
+		<link rel="stylesheet" href="web_assets/calculator/css/emi_calculator.css">
+		
+		<link rel="stylesheet" href="web_assets/css/font-awesome.min.css" type="text/css">
+		<!--CSS-->
+		
+		
+    <!-- Js Plugins -->
+    <script src="web_assets/js/jquery-3.3.1.min.js"></script>
+    <script src="web_assets/js/bootstrap.min.js"></script>
+    <script src="web_assets/js/jquery.nice-select.min.js"></script>
+    <script src="web_assets/js/jquery-ui.min.js"></script>
+    <script src="web_assets/js/jquery.nicescroll.min.js"></script>
+    <script src="web_assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="web_assets/js/jquery.slicknav.js"></script>
+    <script src="web_assets/js/owl.carousel.min.js"></script>
+    <script src="web_assets/js/main.js"></script>
+    <script src="aos@2.3.1/dist/aos.js"></script>
+				
+		<!--JS -->
+
+	</head>
+	<style type="text/css">
+		#preloder{
+			display: none;
+		}
+		#emipaymentsummary{
+			padding-top: 20px;
+		}
+		.header__menu ul li {
+            margin-right: 28px;
+         }
+         .mr-0{
+         	margin-right: 0px !important;
+         }
+         .header__menu ul li a {
+    font-size: 15px !important;
+    font-weight: 700 !important;
+    display: block;
+    padding: 5px 0;
+    position: relative;
+    font-family: inherit !important;
+}
+.header__menu ul li a:hover, .header__menu ul li a:focus {
+    color: #21aa47;
+    text-decoration: none;
+}
+.login-btn{
+	color: #ffffff !important;
+}
+
+	</style>
+<body>
+    <!-- Page Preloder -->
+    <!-- <div id="preloder">
+        <div class="loader"></div>
+    </div>
+ -->
+    <!-- Offcanvas Menu Begin -->
+    <div class="offcanvas-menu-overlay"></div>
+    <div class="offcanvas-menu-wrapper">
+        <!-- <div class="offcanvas__search">
+            <i class="fa fa-search search-switch"></i>
+        </div> -->
+        <div class="offcanvas__logo text-center">
+            <a href="index.html"><img src="web_assets/img/logo.png" alt="" width="100px"></a>
+        </div>
+        <nav class="offcanvas__menu mobile-menu">
+            <ul>
+                                <li class="active"><a href="index.html">Home</a></li>
+                                 <li><a href="#">Loans</a>
+                                    <ul class="dropdown">
+                                        <li><a href="home-loan.html">Home loan</a></li>
+                                        <li><a href="car-loan.html">Car Loan</a></li>
+                                        <li><a href="personal-loan.html">Personal Loan</a></li>
+                                        <li><a href="loan-against-property.html">Loan Against Properties</a></li>
+                                        <li><a href="business-loan.html">Business Loan</a></li>
+                                    </ul>
+                                </li>
+                                 <li><a href="emi-calculator.html">EMI Calculator</a>
+                                </li>
+                                <li><a href="all-team.html">Our Staff</a></li>
+                                <li><a href="about-us.html">About</a></li>
+                               
+                                <li><a href="services.html">Services</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                               
+                                
+                                <li><a href="contact-us.html">Contact</a></li>
+                                <li class="mr-0"> 
+                                                                       <a href="javascript:void(0);" data-toggle="modal" data-target="#login" class="login-btn">LOGIN</a>
+                                                                   </li>
+                                <li> <a href="apply-for-loan.html" class="login-btn" style="background-color: #2bbbad !important;margin-top: 10px;">Apply Now</a></li>
+                            </ul>
+        </nav>
+        <div id="mobile-menu-wrap"></div>
+        <ul class="offcanvas__widget">
+            <li><i class="fa fa-map-marker"></i>B - 309, Khoobram Park,
+                            2nd Floor, Premnagar - 1,
+                            Nangloi, Delhi - 110087
+                            </li>
+            <li><i class="fa fa-phone"></i> (+91) 9871891633, 7838680954</li>
+            <li><i class="fa fa-envelope"></i> info@creditbull.co.in</li>
+        </ul>
+    </div>
+    <!-- Offcanvas Menu End -->
+
+    <!-- Header Section Begin -->
+    <header class="header">
+       <!--  <div class="header__top">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <ul class="header__top__widget">
+                            <li><i class="fa fa-map-marker"></i> B15, first to third floor kirhna nagar Delhi</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-9">
+                         <ul class="header__top__widget float-right">
+                            <li><i class="fa fa-phone"></i> 1234567896</li>
+                            <li><i class="fa fa-envelope"></i> info@fastcredit.co.in</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="header__logo">
+                        <a href="index.html"><img src="web_assets/img/logo.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-lg-10">
+                    <div class="header__nav">
+                        <nav class="header__menu">
+                            <ul>
+                                <li class="active"><a href="index.html">Home</a></li>
+                                 <li><a href="#">Loans</a>
+                                    <ul class="dropdown">
+                                        <li><a href="home-loan.html">Home loan</a></li>
+                                        <li><a href="car-loan.html">Car Loan</a></li>
+                                        <li><a href="personal-loan.html">Personal Loan</a></li>
+                                        <li><a href="loan-against-property.html">Loan Against Properties</a></li>
+                                        <li><a href="business-loan.html">Business Loan</a></li>
+                                    </ul>
+                                </li>
+                                 <li><a href="emi-calculator.html">EMI Calculator</a>
+                                </li>
+                                <li><a href="all-team.html">Our Staff</a></li>
+                                <li><a href="about-us.html">About</a></li>
+                                <li><a href="services.html">Services</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                               
+                                
+                                <li><a href="contact-us.html">Contact</a></li>
+                                <li class="mr-0"> 
+                                                                       <a href="javascript:void(0);" data-toggle="modal" data-target="#login" class="login-btn">LOGIN</a>
+                                                                   </li>
+                                <li> <a href="apply-for-loan.html" class="login-btn" style="background-color: #2bbbad !important;">Apply Now</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="canvas__open">
+                <span class="fa fa-bars"></span>
+            </div>
+        </div>
+    </header>
+    <!-- Header Section End -->
+	<body style="padding: 0;margin: 0 !important"> 
+<div class="container-fluid emi-calculator-container" role="document" style="">
+	<div class="content"> 
+		<main class="main" role="main"> 
+			<article class="post-7 page type-page status-publish hentry">
+
+<div class="calculatorcontainer">
+<div class="emicalculatorcontainer">
+<div id="loanformcontainer" class="row">
+<div id="emicalculatordashboard" class="col-sm-12">
+<div class="cleardiv"></div>
+<div id="emicalculatorinnerformwrapper">
+<form id="emicalculatorform">
+
+<!--loan slider-->	
+<div class="form-horizontal col-md-6 col-xs-12" id="emicalculatorinnerform">
+<div class="form-group lamount">
+
+<h4 class="col-md-4">Loan Amount</h4>
+<div class="col-md-6">
+<div class="input-group"> 
+<input class="form-control" id="loanamount" name="loanamount" value="100000" type="text"> 
+<span class="input-group-addon"><i class="fa fa-inr"></i></span>
+</div>
+</div>
+</div>
+<div id="loanamountslider"></div>
+<div id="loanamountsteps" class="steps">
+<span class="tick" style="left: 0%;">|<br>
+<span class="marker">0</span></span>
+<span class="tick hidden-xs" style="left: 12.5%;">|<br>
+<span class="marker">25L</span></span>
+<span class="tick" style="left: 25%;">|<br><span class="marker">50L</span></span> <span class="tick hidden-xs" style="left: 37.5%;">|<br><span class="marker">75L</span></span> <span class="tick" style="left: 50%;">|<br><span class="marker">100L</span></span> <span class="tick hidden-xs" style="left: 62.5%;">|<br><span class="marker">125L</span></span> <span class="tick" style="left: 75%;">|<br><span class="marker">150L</span></span> <span class="tick hidden-xs" style="left: 87.5%;">|<br><span class="marker">175L</span></span> <span class="tick" style="left: 100%;">|<br><span class="marker">200L</span></span></div><div class="sep form-group lint">
+
+<h4 class="col-md-4">Interest Rate</h4>
+<div class="col-md-6"><div class="input-group"> <input class="form-control" id="loaninterest" name="loaninterest" value="10" type="text"> <span class="input-group-addon">%</span></div></div></div><div id="loaninterestslider"></div><div id="loanintereststeps" class="steps"> <span class="tick" style="left: 0%;">|<br><span class="marker">5</span></span> <span class="tick" style="left: 16.67%;">|<br><span class="marker">7.5</span></span> <span class="tick" style="left: 33.34%;">|<br><span class="marker">10</span></span> <span class="tick" style="left: 50%;">|<br><span class="marker">12.5</span></span> <span class="tick" style="left: 66.67%;">|<br><span class="marker">15</span></span> <span class="tick" style="left: 83.34%;">|<br><span class="marker">17.5</span></span> <span class="tick" style="left: 100%;">|<br><span class="marker">20</span></span></div><div class="sep form-group form-inline lterm">
+<h4 class="col-md-4">Loan Tenure</h4>
+<div class="col-md-6"><div class="loantermwrapper"><div class="btn-group float-right gutter-left no-gutter-right tenure-choice" data-toggle="buttons"> <label class="btn btn-default active"> <input type="radio" name="loantenure" id="loanyears" value="loanyears" tabindex="4" autocomplete="off" checked="checked">Year </label> <label class="btn btn-default"> <input type="radio" name="loantenure" id="loanmonths" value="loanmonths" tabindex="5" autocomplete="off">Month </label></div><div class="input-group fill-width"> <input class="form-control" id="loanterm" name="loanterm" value="1" type="text"></div></div></div></div><div id="loantermslider"></div><div id="loantermsteps" class="steps"> <span class="tick" style="left: 0%;">|<br><span class="marker">0</span></span> <span class="tick" style="left: 16.67%;">|<br><span class="marker">5</span></span> <span class="tick" style="left: 33.33%;">|<br><span class="marker">10</span></span> <span class="tick" style="left: 50%;">|<br><span class="marker">15</span></span> <span class="tick" style="left: 66.67%;">|<br><span class="marker">20</span></span> <span class="tick" style="left: 83.33%;">|<br><span class="marker">25</span></span> <span class="tick" style="left: 100%;">|<br><span class="marker">30</span></span></div><div id="leschemewrapper" class="sep toggle-visible"><div class="form-group escheme"> <label class="col-md-4 control-label" for="emischeme">EMI Scheme</label><div class="col-md-8"><div class="input-group emischemes"><div class="btn-group add-check" data-toggle="buttons"> <label class="btn btn-default"> <input type="radio" name="emischeme" id="emiadvance" value="emiadvance" tabindex="4" autocomplete="off">EMI in Advance </label> <label class="btn btn-default active"> <input type="radio" name="emischeme" id="emiarrears" value="emiarrears" tabindex="5" autocomplete="off" checked="checked">EMI in Arrears </label></div></div></div></div></div>
+</div>
+
+<!--- loan slider -->
+<input id="loanproduct" name="loanproduct" value="" type="hidden">
+<input id="loanstartdate" name="loanstartdate" value="" type="hidden">
+<input id="loandata" name="loandata" value="" type="hidden">
+<input id="calcversion" name="calcversion" value="4.0" type="hidden">
+
+<div class="loadmask"></div>
+
+</form>
+
+<div class="row gutter-left gutter-right">
+
+<!-- pie chart -->
+<div id="emipiechart" class="no-gutter-left no-gutter-right col-md-6 col-xs-12 highcharts-container"></div>
+
+<!---pie chart-->
+
+<div id="emipaymentsummary" class="col-sm-12 col-md-12 no-gutter-left no-gutter-right">
+<div id="emiamount" class="col-sm-12 col-md-4 no-gutter-left no-gutter-right"><h3>Loan EMI</h3><p><i class="fa fa-inr"></i><span>24,959</span></p></div>
+<div id="emitotalinterest" class="col-sm-12 col-md-4 no-gutter-left no-gutter-right"><h3>Total Interest Payable</h3><p><i class="fa fa-inr"></i><span>34,90,279</span></p></div>
+<div id="emitotalamount" class="col-sm-12 col-md-4 no-gutter-left no-gutter-right column-last"><h3>Total Payment<br><h6>(Principal + Interest)</h6></h3><p><i class="fa fa-inr"></i><span>59,90,279</span></p></div>
+</div>
+
+</div><div class="cleardiv"></div></div></div></div><div id="emipaymentdetails"><form class="gutter-left gutter-right form-horizontal"><div class="form-group" id="emipaymentscheduleheader"> <label class="col-sm-6 control-label" for="startmonthyear">Schedule showing EMI payments starting from</label><div class="col-sm-6 col-md-4"><div class="input-group"> <input class="form-control" id="startmonthyear" name="startmonthyear" value="" type="text"> <span class="input-group-addon"><i class="fa fa-calendar"></i></span></div></div></div></form><div id="emibarchart" class="hidden-ts highcharts-container"></div><div id="emipaymenttable"></div><div id="ecalprintandshare">
+<div id="loader"><i class="fa fa-spinner fa-pulse"></i></div>
+</div>
+</div>
+</div>
+
+</div><div id="disqus_thread"></div>
+</article> </main></div>
+</div> 
+
+<script>
+var inr='';
+$(document).ready(function(){
+	function doit(){J("home-loan"),K();var a=jQuery("#loandata").val();if(""!=a){jQuery(".loanproduct-nav").hide(),a=jQuery.parseJSON(decodeURIComponent(escape(Base64.decode(a)))),p=a.loanproduct,J(p),L(),M(a),N();var e=Math.abs(jQuery("#loanamount").val().replace(/[^\d\.]/g,"")),s=jQuery("#loaninterest").val(),n=jQuery("#loanterm").val();"loanyears"==a.loantenure&&(n*=12),jQuery("#emicalculatorform input[name='emischeme']:checked").val(),"home-loan"==p?O("Home Loan Amount",2e7,1e5,e,20,s,30,.5,n):"personal-loan"==p?O("Personal Loan Amount",15e5,1e4,e,25,s,5,.25,n):"car-loan"==p&&O("Car Loan Amount",2e6,1e4,e,20,s,7,.25,n),0<(selDate=a.loanstartdate).length&&(v=selDate.substring(selDate.length-4,selDate.length),u=jQuery.inArray(selDate.substring(0,selDate.length-5),I),jQuery("#startmonthyear").datepicker("setDate",new Date(v,u,1)))}else O("Home Loan Amount",2e7,1e5,5e6,20,10.5,30,.5,240);P(),R(),S(),T()}
+	
+	var lt=0;
+	$('#emicalculatorinnerform .lamount label[for=loanamount] strong').html('Loan Amount');
+	
+	})
+</script>
+
+  
+
+
+
+<script>
+
+$(".mainLightbox .lightBox p .closeBtn").click(function(){
+	$(".mainLightbox").removeClass("active");
+	})
+	// otp 
+
+	$("#SendOtpBox").click(function(){
+		$(".lightBox").addClass("lightBox2");
+	});
+	$("#EditBtn").click(function(){
+		$(".lightBox").removeClass("lightBox2");
+	});
+	
+
+</script>
+	</body>
+	</body></html>
